@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "adfanredev"
+        },
+        "ls_sqldb_password": {
+            "value": "Reddy@99"
+        },
+        "ls_adls_properties_typeProperties_url": {
+            "value": "https://storageanredev.dfs.core.windows.net/"
+        },
+        "ls_sqldb_properties_typeProperties_server": {
+            "value": "practiseanredev.database.windows.net"
+        },
+        "ls_sqldb_properties_typeProperties_database": {
+            "value": "dbanredev"
+        },
+        "ls_sqldb_properties_typeProperties_userName": {
+            "value": "Anjali"
+        }
+    }
+}
